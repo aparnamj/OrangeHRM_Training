@@ -1,0 +1,32 @@
+package OrangeHRM_Training.OrangeHRM_Training;
+
+import org.testng.annotations.DataProvider;
+
+public class Orange_dataset {
+	@DataProvider(name = "Login")
+	public Object[][] getDataforLogin() {
+		// Multidimensional Object
+		// 3X3 or 4X3 or 4X5
+		return new Object[][] {
+
+				{"Admin", "admin123" },
+				{"priya", "admin123" },
+				{"dixit", "admin123" },
+				{"deepp", "admin123" }
+				};
+	}
+	@DataProvider(name = "Web")
+	public Object[][] getDataforWeb() {
+		// Multidimensional Object
+		// 3X3 or 4X3 or 4X5
+		return new Object[][] {
+
+				{"Tester", "test" },
+				{"Tester", "test" },
+				{"Tester", "test" },
+				{"Tester", "test" }
+				};
+	}
+
+
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Cross Browser]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="pk_OrangeHRM.OrangeHRM_Cross_Browser_Test">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="Login_Validation" invocation-numbers="0 1 2 3"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- pk_OrangeHRM.OrangeHRM_Cross_Browser_Test -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="1" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="pk_OrangeHRM.OrangeHRM_Cross_Browser_Test">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="Login_Validation" invocation-numbers="0 1 2 3"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- pk_OrangeHRM.OrangeHRM_Cross_Browser_Test -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Cross Browser] -->

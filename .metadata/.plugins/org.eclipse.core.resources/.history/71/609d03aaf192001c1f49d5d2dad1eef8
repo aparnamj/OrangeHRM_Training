@@ -1,0 +1,9 @@
+package pk_OrangeHRM;
+
+import org.testng.annotations.Test;
+
+public class OrangeHRM_Cross_Browser_Test {
+  @Test
+  public void f() {
+  }
+}

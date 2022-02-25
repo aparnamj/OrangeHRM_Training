@@ -1,0 +1,9 @@
+package pk_OrangeHRM;
+
+import org.testng.annotations.Test;
+
+public class ConnectDB_webOrder {
+  @Test
+  public void f() {
+  }
+}
